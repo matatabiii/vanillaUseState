@@ -1,10 +1,10 @@
 import "./styles.css";
 
-const appElement = document.getElementById("app");
+const rootElement = document.getElementById("root");
 
 let count = 0;
 
-appElement.insertAdjacentHTML(
+rootElement.insertAdjacentHTML(
   "beforeend",
   `
   <div class="App">
