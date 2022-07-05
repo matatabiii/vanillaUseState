@@ -7,7 +7,7 @@ let count = 0;
 appElement.insertAdjacentHTML(
   "beforeend",
   `
-  <div className="App">
+  <div class="App">
     <h1 id="counter">0</h1>
     <button id="count-down">カウント -1</button>
     <button id="count-reset">リセット</button>
